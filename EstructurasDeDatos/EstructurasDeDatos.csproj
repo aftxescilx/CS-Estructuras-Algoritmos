@@ -98,6 +98,13 @@
     <Compile Include="ListaDobleSimple.Designer.cs">
       <DependentUpon>ListaDobleSimple.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListaEnlazadaSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaEnlazadaSimple.Designer.cs">
+      <DependentUpon>ListaEnlazadaSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaEnlazadaSimpleOperaciones.cs" />
     <Compile Include="MatrizAdyacencia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,12 +117,25 @@
     <Compile Include="MatrizPeso.Designer.cs">
       <DependentUpon>MatrizPeso.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuAlgoritmos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAlgoritmos.Designer.cs">
+      <DependentUpon>MenuAlgoritmos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="NodoArbol.cs" />
     <Compile Include="NodoCola.cs" />
     <Compile Include="NodoGrafos.cs" />
     <Compile Include="NodoLCS.cs" />
     <Compile Include="NodoLDE.cs" />
     <Compile Include="NodoLEDC.cs" />
+    <Compile Include="NodoLES.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Arbol.resx">
@@ -139,11 +159,17 @@
     <EmbeddedResource Include="ListaDobleSimple.resx">
       <DependentUpon>ListaDobleSimple.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListaEnlazadaSimple.resx">
+      <DependentUpon>ListaEnlazadaSimple.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MatrizAdyacencia.resx">
       <DependentUpon>MatrizAdyacencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MatrizPeso.resx">
       <DependentUpon>MatrizPeso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

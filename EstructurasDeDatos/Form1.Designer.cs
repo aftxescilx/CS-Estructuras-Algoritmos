@@ -40,7 +40,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(112, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 68);
             this.button1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(112, 12);
+            this.button2.Location = new System.Drawing.Point(212, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 68);
             this.button2.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(312, 12);
+            this.button3.Location = new System.Drawing.Point(12, 86);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 68);
             this.button3.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(212, 12);
+            this.button4.Location = new System.Drawing.Point(312, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(94, 68);
             this.button4.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(54, 86);
+            this.button5.Location = new System.Drawing.Point(112, 86);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 68);
             this.button5.TabIndex = 4;
@@ -89,7 +89,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(254, 86);
+            this.button6.Location = new System.Drawing.Point(312, 86);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(94, 68);
             this.button6.TabIndex = 5;
@@ -99,7 +99,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(154, 86);
+            this.button7.Location = new System.Drawing.Point(212, 86);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(94, 68);
             this.button7.TabIndex = 6;
@@ -109,19 +109,19 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(12, 160);
+            this.button8.Location = new System.Drawing.Point(12, 12);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(394, 24);
+            this.button8.Size = new System.Drawing.Size(94, 68);
             this.button8.TabIndex = 7;
-            this.button8.Text = "ALGORITMOS DE ORDENAMIENTO";
+            this.button8.Text = "LISTA ENLAZADA SIMPLE";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // fMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 190);
+            this.ClientSize = new System.Drawing.Size(420, 165);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -131,7 +131,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "fMenu";
-            this.Text = "Menú Principal";
+            this.Text = "Menú Operaciones";
             this.ResumeLayout(false);
 
         }

@@ -12,6 +12,7 @@ namespace EstructurasDeDatos
 {
     public partial class fMenu : Form
     {
+        ListaEnlazadaSimple listaEnlazada = new ListaEnlazadaSimple();
         ListaCircularSimple listaCircular = new ListaCircularSimple();
         ListaDobleSimple listaDoble = new ListaDobleSimple();
         ListaDobleCircular dobleCircular = new ListaDobleCircular();
@@ -60,9 +61,10 @@ namespace EstructurasDeDatos
             Hide();
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void button8_Click_1(object sender, EventArgs e)
         {
-
+            listaEnlazada.Show();
+            Hide();
         }
     }
 }

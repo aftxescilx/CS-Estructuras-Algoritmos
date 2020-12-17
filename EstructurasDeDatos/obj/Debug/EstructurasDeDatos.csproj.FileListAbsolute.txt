@@ -18,3 +18,4 @@ C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\Estr
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Matriz_Peso.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\bin\Debug\InputKey.dll
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.csproj.CopyComplete
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.MenuPrincipal.resources
