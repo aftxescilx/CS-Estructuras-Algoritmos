@@ -13,3 +13,8 @@ C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\Estr
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Cola.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.ListaDobleCircular.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Arbol.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Grafos1.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Matriz_Adyacencia.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Matriz_Peso.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\bin\Debug\InputKey.dll
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.csproj.CopyComplete

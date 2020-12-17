@@ -16,7 +16,7 @@ namespace EstructurasDeDatos
         ListaDobleSimple listaDoble = new ListaDobleSimple();
         ListaDobleCircular dobleCircular = new ListaDobleCircular();
         Cola cola = new Cola();
-        Grafos graf = new Grafos();
+        Grafos1 graf = new Grafos1();
         Arbol arbol = new Arbol();
 
         public fMenu()
