@@ -53,7 +53,7 @@ namespace EstructurasDeDatos
                 {
                     break;
                 }
-                h = h.Siguiente; //avanza al siguiente nodo
+                h = h.Siguiente; 
             }
 
             n.Siguiente = h.Siguiente;
@@ -85,7 +85,11 @@ namespace EstructurasDeDatos
                     if (h.Siguiente.Dato == dato)
                     {
                         h.Siguiente = h.Siguiente.Siguiente;
-                        h.Siguiente.Anterior = h;
+                       
+                        if (h.Siguiente != null)
+                        {
+                            h.Siguiente.Anterior = h;
+                        }
                         return;
                     }
                     h = h.Siguiente;
