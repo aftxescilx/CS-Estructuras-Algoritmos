@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arbol.Designer.cs">
+      <DependentUpon>Arbol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArbolBinario.cs" />
+    <Compile Include="ArbolBinarioOrdenado.cs" />
     <Compile Include="Cola.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +66,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grafos.Designer.cs">
+      <DependentUpon>Grafos.cs</DependentUpon>
     </Compile>
     <Compile Include="ListaCircularSimple.cs">
       <SubType>Form</SubType>
@@ -80,12 +94,16 @@
     <Compile Include="ListaDobleSimple.Designer.cs">
       <DependentUpon>ListaDobleSimple.cs</DependentUpon>
     </Compile>
+    <Compile Include="NodoArbol.cs" />
     <Compile Include="NodoCola.cs" />
     <Compile Include="NodoLCS.cs" />
     <Compile Include="NodoLDE.cs" />
     <Compile Include="NodoLEDC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Arbol.resx">
+      <DependentUpon>Arbol.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cola.resx">
       <DependentUpon>Cola.cs</DependentUpon>
     </EmbeddedResource>

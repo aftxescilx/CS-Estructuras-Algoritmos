@@ -16,6 +16,8 @@ namespace EstructurasDeDatos
         ListaDobleSimple listaDoble = new ListaDobleSimple();
         ListaDobleCircular dobleCircular = new ListaDobleCircular();
         Cola cola = new Cola();
+        Grafos graf = new Grafos();
+        Arbol arbol = new Arbol();
 
         public fMenu()
         {
@@ -44,6 +46,18 @@ namespace EstructurasDeDatos
         {
             dobleCircular.Show();
             this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            graf.Show();
+            Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            arbol.Show();
+            Hide();
         }
     }
 }

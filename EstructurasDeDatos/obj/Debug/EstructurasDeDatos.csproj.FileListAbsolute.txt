@@ -12,3 +12,4 @@ C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\Estr
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.ListaDobleSimple.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Cola.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.ListaDobleCircular.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Arbol.resources
