@@ -42,6 +42,7 @@
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.White;
             this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(195, 9);
             this.lblTitulo.Name = "lblTitulo";
@@ -51,62 +52,68 @@
             // 
             // btnEliminarLista
             // 
+            this.btnEliminarLista.BackColor = System.Drawing.Color.Pink;
             this.btnEliminarLista.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarLista.Location = new System.Drawing.Point(137, 259);
             this.btnEliminarLista.Name = "btnEliminarLista";
             this.btnEliminarLista.Size = new System.Drawing.Size(112, 53);
             this.btnEliminarLista.TabIndex = 34;
             this.btnEliminarLista.Text = "Eliminar Cola";
-            this.btnEliminarLista.UseVisualStyleBackColor = true;
+            this.btnEliminarLista.UseVisualStyleBackColor = false;
             this.btnEliminarLista.Click += new System.EventHandler(this.BtnEliminarLista_Click);
             // 
             // btnCargar
             // 
+            this.btnCargar.BackColor = System.Drawing.Color.Pink;
             this.btnCargar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargar.Location = new System.Drawing.Point(137, 223);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(112, 30);
             this.btnCargar.TabIndex = 33;
             this.btnCargar.Text = "Cargar";
-            this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnCargar.UseVisualStyleBackColor = false;
             this.btnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
             // 
             // btnGuardarArchivo
             // 
+            this.btnGuardarArchivo.BackColor = System.Drawing.Color.Pink;
             this.btnGuardarArchivo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarArchivo.Location = new System.Drawing.Point(137, 166);
             this.btnGuardarArchivo.Name = "btnGuardarArchivo";
             this.btnGuardarArchivo.Size = new System.Drawing.Size(112, 51);
             this.btnGuardarArchivo.TabIndex = 32;
             this.btnGuardarArchivo.Text = "Guardar Archivo";
-            this.btnGuardarArchivo.UseVisualStyleBackColor = true;
+            this.btnGuardarArchivo.UseVisualStyleBackColor = false;
             this.btnGuardarArchivo.Click += new System.EventHandler(this.BtnGuardarArchivo_Click);
             // 
             // btnMostrar
             // 
+            this.btnMostrar.BackColor = System.Drawing.Color.Pink;
             this.btnMostrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMostrar.Location = new System.Drawing.Point(137, 130);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(112, 30);
             this.btnMostrar.TabIndex = 30;
             this.btnMostrar.Text = "Consultar";
-            this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.UseVisualStyleBackColor = false;
             this.btnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
             // btnDesencolar
             // 
+            this.btnDesencolar.BackColor = System.Drawing.Color.Pink;
             this.btnDesencolar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesencolar.Location = new System.Drawing.Point(137, 94);
             this.btnDesencolar.Name = "btnDesencolar";
             this.btnDesencolar.Size = new System.Drawing.Size(112, 30);
             this.btnDesencolar.TabIndex = 27;
             this.btnDesencolar.Text = "Desencolar";
-            this.btnDesencolar.UseVisualStyleBackColor = true;
+            this.btnDesencolar.UseVisualStyleBackColor = false;
             this.btnDesencolar.Click += new System.EventHandler(this.BtnDesencolar_Click);
             // 
             // lblCola
             // 
             this.lblCola.AutoSize = true;
+            this.lblCola.BackColor = System.Drawing.Color.White;
             this.lblCola.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCola.Location = new System.Drawing.Point(255, 63);
             this.lblCola.Name = "lblCola";
@@ -124,6 +131,7 @@
             // 
             // btnEncolar
             // 
+            this.btnEncolar.BackColor = System.Drawing.Color.Pink;
             this.btnEncolar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEncolar.Location = new System.Drawing.Point(137, 58);
             this.btnEncolar.Name = "btnEncolar";
@@ -131,13 +139,14 @@
             this.btnEncolar.TabIndex = 24;
             this.btnEncolar.Text = "Encolar";
             this.btnEncolar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnEncolar.UseVisualStyleBackColor = true;
+            this.btnEncolar.UseVisualStyleBackColor = false;
             this.btnEncolar.Click += new System.EventHandler(this.BtnEncolar_Click);
             // 
             // Cola
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(563, 328);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnEliminarLista);
@@ -150,6 +159,7 @@
             this.Controls.Add(this.btnEncolar);
             this.Name = "Cola";
             this.Text = "Cola";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Cola_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

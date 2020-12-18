@@ -45,6 +45,7 @@
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.White;
             this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(158, 9);
             this.lblTitulo.Name = "lblTitulo";
@@ -54,40 +55,44 @@
             // 
             // btnEliminarLista
             // 
+            this.btnEliminarLista.BackColor = System.Drawing.Color.Pink;
             this.btnEliminarLista.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarLista.Location = new System.Drawing.Point(163, 294);
             this.btnEliminarLista.Name = "btnEliminarLista";
             this.btnEliminarLista.Size = new System.Drawing.Size(89, 53);
             this.btnEliminarLista.TabIndex = 34;
             this.btnEliminarLista.Text = "Eliminar lista";
-            this.btnEliminarLista.UseVisualStyleBackColor = true;
+            this.btnEliminarLista.UseVisualStyleBackColor = false;
             this.btnEliminarLista.Click += new System.EventHandler(this.BtnEliminarLista_Click);
             // 
             // btnCargar
             // 
+            this.btnCargar.BackColor = System.Drawing.Color.Pink;
             this.btnCargar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargar.Location = new System.Drawing.Point(163, 258);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(89, 30);
             this.btnCargar.TabIndex = 33;
             this.btnCargar.Text = "Cargar";
-            this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnCargar.UseVisualStyleBackColor = false;
             this.btnCargar.Click += new System.EventHandler(this.BtnCargar_Click);
             // 
             // btnGuardarArchivo
             // 
+            this.btnGuardarArchivo.BackColor = System.Drawing.Color.Pink;
             this.btnGuardarArchivo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarArchivo.Location = new System.Drawing.Point(163, 201);
             this.btnGuardarArchivo.Name = "btnGuardarArchivo";
             this.btnGuardarArchivo.Size = new System.Drawing.Size(89, 51);
             this.btnGuardarArchivo.TabIndex = 32;
             this.btnGuardarArchivo.Text = "Guardar Archivo";
-            this.btnGuardarArchivo.UseVisualStyleBackColor = true;
+            this.btnGuardarArchivo.UseVisualStyleBackColor = false;
             this.btnGuardarArchivo.Click += new System.EventHandler(this.BtnGuardarArchivo_Click);
             // 
             // lblMostrar
             // 
             this.lblMostrar.AutoSize = true;
+            this.lblMostrar.BackColor = System.Drawing.Color.White;
             this.lblMostrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrar.Location = new System.Drawing.Point(263, 170);
             this.lblMostrar.Name = "lblMostrar";
@@ -97,24 +102,26 @@
             // 
             // btnMostrar
             // 
+            this.btnMostrar.BackColor = System.Drawing.Color.Pink;
             this.btnMostrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMostrar.Location = new System.Drawing.Point(163, 165);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(89, 30);
             this.btnMostrar.TabIndex = 30;
             this.btnMostrar.Text = "Mostrar";
-            this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.UseVisualStyleBackColor = false;
             this.btnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
             // btnContar
             // 
+            this.btnContar.BackColor = System.Drawing.Color.Pink;
             this.btnContar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnContar.Location = new System.Drawing.Point(163, 129);
             this.btnContar.Name = "btnContar";
             this.btnContar.Size = new System.Drawing.Size(89, 30);
             this.btnContar.TabIndex = 29;
             this.btnContar.Text = "Contar";
-            this.btnContar.UseVisualStyleBackColor = true;
+            this.btnContar.UseVisualStyleBackColor = false;
             this.btnContar.Click += new System.EventHandler(this.BtnContar_Click);
             // 
             // txtEliminar
@@ -127,18 +134,20 @@
             // 
             // btnEliminarNodo
             // 
+            this.btnEliminarNodo.BackColor = System.Drawing.Color.Pink;
             this.btnEliminarNodo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarNodo.Location = new System.Drawing.Point(163, 93);
             this.btnEliminarNodo.Name = "btnEliminarNodo";
             this.btnEliminarNodo.Size = new System.Drawing.Size(89, 30);
             this.btnEliminarNodo.TabIndex = 27;
             this.btnEliminarNodo.Text = "Eliminar dato";
-            this.btnEliminarNodo.UseVisualStyleBackColor = true;
+            this.btnEliminarNodo.UseVisualStyleBackColor = false;
             this.btnEliminarNodo.Click += new System.EventHandler(this.BtnEliminarNodo_Click);
             // 
             // lblLista
             // 
             this.lblLista.AutoSize = true;
+            this.lblLista.BackColor = System.Drawing.Color.White;
             this.lblLista.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLista.Location = new System.Drawing.Point(263, 60);
             this.lblLista.Name = "lblLista";
@@ -156,19 +165,21 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.BackColor = System.Drawing.Color.Pink;
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Location = new System.Drawing.Point(163, 57);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(89, 30);
             this.btnGuardar.TabIndex = 24;
             this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // ListaDobleSimple
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(639, 358);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnEliminarLista);

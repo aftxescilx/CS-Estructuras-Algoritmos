@@ -47,7 +47,7 @@ namespace EstructurasDeDatos
             if (Dialogo.ShowDialog() == DialogResult.OK)
             {
                 string dato = lblCola.Text;
-                string ruta = Dialogo.SelectedPath + "\\Lista.txt";
+                string ruta = Dialogo.SelectedPath + "\\Cola.txt";
                 using (var writer = new StreamWriter(ruta))
                 {
                     writer.Close();
@@ -89,6 +89,11 @@ namespace EstructurasDeDatos
         {
             MiCola.Head = null;
             lblCola.Text = MiCola.ToString();
+        }
+
+        private void Cola_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

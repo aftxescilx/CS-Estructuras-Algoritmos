@@ -54,5 +54,9 @@ namespace EstructurasDeDatos
 
         }
 
+        private void Matriz_Adyacencia_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

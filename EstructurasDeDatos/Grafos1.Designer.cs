@@ -69,6 +69,8 @@ namespace EstructurasDeDatos
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Pink;
+            this.menuStrip1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivoToolStripMenuItem,
             this.nodoToolStripMenuItem,
@@ -76,7 +78,7 @@ namespace EstructurasDeDatos
             this.matrizToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 29);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,7 +88,7 @@ namespace EstructurasDeDatos
             this.nuevoToolStripMenuItem,
             this.borrarToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(83, 25);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
             // nuevoToolStripMenuItem
@@ -94,13 +96,13 @@ namespace EstructurasDeDatos
             this.nuevoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem});
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             // 
             // grafo1ToolStripMenuItem
             // 
             this.grafo1ToolStripMenuItem.Name = "grafo1ToolStripMenuItem";
-            this.grafo1ToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.grafo1ToolStripMenuItem.Size = new System.Drawing.Size(138, 26);
             this.grafo1ToolStripMenuItem.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem.Click += new System.EventHandler(this.grafo1ToolStripMenuItem_Click);
             // 
@@ -109,13 +111,13 @@ namespace EstructurasDeDatos
             this.borrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem1});
             this.borrarToolStripMenuItem.Name = "borrarToolStripMenuItem";
-            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.borrarToolStripMenuItem.Text = "Borrar";
             // 
             // grafo1ToolStripMenuItem1
             // 
             this.grafo1ToolStripMenuItem1.Name = "grafo1ToolStripMenuItem1";
-            this.grafo1ToolStripMenuItem1.Size = new System.Drawing.Size(112, 22);
+            this.grafo1ToolStripMenuItem1.Size = new System.Drawing.Size(138, 26);
             this.grafo1ToolStripMenuItem1.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem1.Click += new System.EventHandler(this.grafo1ToolStripMenuItem1_Click);
             // 
@@ -127,7 +129,7 @@ namespace EstructurasDeDatos
             this.moverNodoToolStripMenuItem,
             this.eliminarToolStripMenuItem});
             this.nodoToolStripMenuItem.Name = "nodoToolStripMenuItem";
-            this.nodoToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.nodoToolStripMenuItem.Size = new System.Drawing.Size(65, 25);
             this.nodoToolStripMenuItem.Text = "Nodo";
             // 
             // agregarToolStripMenuItem
@@ -135,34 +137,34 @@ namespace EstructurasDeDatos
             this.agregarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem2});
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.agregarToolStripMenuItem.Text = "Agregar";
             // 
             // grafo1ToolStripMenuItem2
             // 
             this.grafo1ToolStripMenuItem2.Name = "grafo1ToolStripMenuItem2";
-            this.grafo1ToolStripMenuItem2.Size = new System.Drawing.Size(112, 22);
+            this.grafo1ToolStripMenuItem2.Size = new System.Drawing.Size(138, 26);
             this.grafo1ToolStripMenuItem2.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem2.Click += new System.EventHandler(this.grafo1ToolStripMenuItem2_Click);
             // 
             // moverTodoToolStripMenuItem
             // 
             this.moverTodoToolStripMenuItem.Name = "moverTodoToolStripMenuItem";
-            this.moverTodoToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.moverTodoToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.moverTodoToolStripMenuItem.Text = "Mover Todo";
             this.moverTodoToolStripMenuItem.Click += new System.EventHandler(this.moverTodoToolStripMenuItem_Click);
             // 
             // moverNodoToolStripMenuItem
             // 
             this.moverNodoToolStripMenuItem.Name = "moverNodoToolStripMenuItem";
-            this.moverNodoToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.moverNodoToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.moverNodoToolStripMenuItem.Text = "Mover Nodo";
             this.moverNodoToolStripMenuItem.Click += new System.EventHandler(this.moverNodoToolStripMenuItem_Click);
             // 
             // eliminarToolStripMenuItem
             // 
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
-            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
             this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
@@ -173,27 +175,27 @@ namespace EstructurasDeDatos
             this.noDirigidaToolStripMenuItem,
             this.eliminarToolStripMenuItem1});
             this.aristaToolStripMenuItem.Name = "aristaToolStripMenuItem";
-            this.aristaToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.aristaToolStripMenuItem.Size = new System.Drawing.Size(67, 25);
             this.aristaToolStripMenuItem.Text = "Arista";
             // 
             // dirigidaToolStripMenuItem
             // 
             this.dirigidaToolStripMenuItem.Name = "dirigidaToolStripMenuItem";
-            this.dirigidaToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.dirigidaToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
             this.dirigidaToolStripMenuItem.Text = "Dirigida";
             this.dirigidaToolStripMenuItem.Click += new System.EventHandler(this.dirigidaToolStripMenuItem_Click);
             // 
             // noDirigidaToolStripMenuItem
             // 
             this.noDirigidaToolStripMenuItem.Name = "noDirigidaToolStripMenuItem";
-            this.noDirigidaToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.noDirigidaToolStripMenuItem.Size = new System.Drawing.Size(165, 26);
             this.noDirigidaToolStripMenuItem.Text = "No Dirigida";
             this.noDirigidaToolStripMenuItem.Click += new System.EventHandler(this.noDirigidaToolStripMenuItem_Click);
             // 
             // eliminarToolStripMenuItem1
             // 
             this.eliminarToolStripMenuItem1.Name = "eliminarToolStripMenuItem1";
-            this.eliminarToolStripMenuItem1.Size = new System.Drawing.Size(134, 22);
+            this.eliminarToolStripMenuItem1.Size = new System.Drawing.Size(165, 26);
             this.eliminarToolStripMenuItem1.Text = "Eliminar";
             this.eliminarToolStripMenuItem1.Click += new System.EventHandler(this.eliminarToolStripMenuItem1_Click);
             // 
@@ -203,7 +205,7 @@ namespace EstructurasDeDatos
             this.adyacenciaToolStripMenuItem,
             this.pesoToolStripMenuItem});
             this.matrizToolStripMenuItem.Name = "matrizToolStripMenuItem";
-            this.matrizToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.matrizToolStripMenuItem.Size = new System.Drawing.Size(70, 25);
             this.matrizToolStripMenuItem.Text = "Matriz";
             // 
             // adyacenciaToolStripMenuItem
@@ -211,13 +213,13 @@ namespace EstructurasDeDatos
             this.adyacenciaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem3});
             this.adyacenciaToolStripMenuItem.Name = "adyacenciaToolStripMenuItem";
-            this.adyacenciaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.adyacenciaToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.adyacenciaToolStripMenuItem.Text = "Adyacencia";
             // 
             // grafo1ToolStripMenuItem3
             // 
             this.grafo1ToolStripMenuItem3.Name = "grafo1ToolStripMenuItem3";
-            this.grafo1ToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.grafo1ToolStripMenuItem3.Size = new System.Drawing.Size(138, 26);
             this.grafo1ToolStripMenuItem3.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem3.Click += new System.EventHandler(this.grafo1ToolStripMenuItem3_Click);
             // 
@@ -226,13 +228,13 @@ namespace EstructurasDeDatos
             this.pesoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem4});
             this.pesoToolStripMenuItem.Name = "pesoToolStripMenuItem";
-            this.pesoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pesoToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.pesoToolStripMenuItem.Text = "Peso";
             // 
             // grafo1ToolStripMenuItem4
             // 
             this.grafo1ToolStripMenuItem4.Name = "grafo1ToolStripMenuItem4";
-            this.grafo1ToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.grafo1ToolStripMenuItem4.Size = new System.Drawing.Size(138, 26);
             this.grafo1ToolStripMenuItem4.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem4.Click += new System.EventHandler(this.grafo1ToolStripMenuItem4_Click);
             // 
@@ -240,12 +242,14 @@ namespace EstructurasDeDatos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Grafos1";
             this.Text = "Grafos1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Grafos1_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

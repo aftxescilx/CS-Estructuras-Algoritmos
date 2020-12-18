@@ -223,5 +223,11 @@ namespace EstructurasDeDatos
                 }
             }
         }
+
+        private void Arbol_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
 }

@@ -42,18 +42,13 @@ namespace EstructurasDeDatos
             MessageBox.Show("Número de nodos en la lista: " + MiLista.ContarNodos());
         }
 
-        private void BtnMostrar_Click(object sender, EventArgs e)
-        {
-            lblMostrar.Text = MiLista.ToString();
-        }
-
         private void BtnGuardarArchivo_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog Dialogo = new FolderBrowserDialog();
             if (Dialogo.ShowDialog() == DialogResult.OK)
             {
                 string dato = lblLista.Text;
-                string ruta = Dialogo.SelectedPath + "\\ListaN.txt";
+                string ruta = Dialogo.SelectedPath + "\\Lista Circular Simple.txt";
                 using (var writer = new StreamWriter(ruta))
                 {
                     writer.Close();
@@ -88,7 +83,6 @@ namespace EstructurasDeDatos
         {
             MiLista.Head = null;
             lblLista.Text = MiLista.ToString();
-            lblMostrar.Text = MiLista.ToString();
         }
 
         private void BtnEliminarNodo_Click_1(object sender, EventArgs e)
@@ -113,6 +107,11 @@ namespace EstructurasDeDatos
                 MessageBox.Show("Introduzca un número válido.");
             }
 
+        }
+
+        private void ListaCircularSimple_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

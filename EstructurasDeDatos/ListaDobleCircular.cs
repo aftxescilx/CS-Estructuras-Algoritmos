@@ -65,11 +65,6 @@ namespace EstructurasDeDatos
             MessageBox.Show("Número de nodos en la lista: " + MiLista.ContarNodos());
         }
 
-        private void BtnMostrar_Click(object sender, EventArgs e)
-        {
-            lblMostrar.Text = MiLista.ToString();
-        }
-
         private void BtnGuardarArchivo_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog Dialogo = new FolderBrowserDialog();
@@ -111,7 +106,11 @@ namespace EstructurasDeDatos
         {
             MiLista.Head = null;
             lblLista.Text = MiLista.ToString();
-            lblMostrar.Text = MiLista.ToString();
+        }
+
+        private void ListaDobleCircular_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

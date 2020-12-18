@@ -51,5 +51,9 @@ namespace EstructurasDeDatos
             }
         }
 
+        private void Matriz_Peso_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

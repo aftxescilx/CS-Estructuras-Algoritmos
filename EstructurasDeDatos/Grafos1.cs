@@ -356,5 +356,10 @@ namespace EstructurasDeDatos
             Matriz_Peso mp = new Matriz_Peso(nodos);
             mp.Show();
         }
+
+        private void Grafos1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

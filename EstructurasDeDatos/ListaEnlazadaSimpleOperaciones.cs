@@ -99,7 +99,6 @@ namespace EstructurasDeDatos
             {
                 return "La lista esta vacia";
             }
-
         }
         public bool BuscarDato(int a)
         {

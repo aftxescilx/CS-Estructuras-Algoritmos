@@ -19,6 +19,7 @@ namespace EstructurasDeDatos
         Cola cola = new Cola();
         Grafos1 graf = new Grafos1();
         Arbol arbol = new Arbol();
+        Pila p = new Pila();
 
         public fMenu()
         {
@@ -65,6 +66,17 @@ namespace EstructurasDeDatos
         {
             listaEnlazada.Show();
             Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            p.Show();
+            Hide();
+        }
+
+        private void fMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
