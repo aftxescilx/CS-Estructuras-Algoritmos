@@ -17,7 +17,7 @@ namespace EstructurasDeDatos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            NodoP n = new NodoP(int.Parse(textBox1.Text));
+            NodoP n = new NodoP(int.Parse(textBox1.Text));                 
             miPila.Push(n);
             lblPila.Text = miPila.ToString();
             textBox1.Clear();
@@ -25,8 +25,8 @@ namespace EstructurasDeDatos
 
         private void button2_Click(object sender, EventArgs e)
         {
-            NodoP n = miPila.Pop();
-            MessageBox.Show(n.ToString());
+            miPila.Pop();
+            lblPila.Text= miPila.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
