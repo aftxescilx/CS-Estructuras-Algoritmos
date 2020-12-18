@@ -80,8 +80,9 @@ namespace EstructurasDeDatos
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(160, 100);
             this.button4.TabIndex = 11;
-            this.button4.Text = "RADIX";
+            this.button4.Text = "COUNTINGSORT";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 

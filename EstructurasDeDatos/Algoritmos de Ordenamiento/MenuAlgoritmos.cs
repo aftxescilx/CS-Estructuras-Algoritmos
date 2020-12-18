@@ -8,6 +8,7 @@ namespace EstructurasDeDatos
     {
         Burbuja burbuja = new Burbuja();
         CocktailSort cocktail = new CocktailSort();
+        Counts counts = new Counts();
         
         public MenuAlgoritmos()
         {
@@ -29,6 +30,12 @@ namespace EstructurasDeDatos
         private void button1_Click(object sender, EventArgs e)
         {
             cocktail.Show();
+            Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            counts.Show();
             Hide();
         }
     }
