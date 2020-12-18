@@ -49,78 +49,84 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arbol.cs">
+    <Compile Include="Estructuras de Datos\Árboles\Arbol.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Arbol.Designer.cs">
+    <Compile Include="Estructuras de Datos\Árboles\Arbol.Designer.cs">
       <DependentUpon>Arbol.cs</DependentUpon>
     </Compile>
-    <Compile Include="ArbolBinario.cs" />
-    <Compile Include="ArbolBinarioOrdenado.cs" />
-    <Compile Include="Arista.cs" />
-    <Compile Include="Cola.cs">
+    <Compile Include="Estructuras de Datos\Árboles\ArbolBinario.cs" />
+    <Compile Include="Estructuras de Datos\Árboles\ArbolBinarioOrdenado.cs" />
+    <Compile Include="Estructuras de Datos\Grafos\Arista.cs" />
+    <Compile Include="Algoritmos de Ordenamiento\Burbuja.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cola.Designer.cs">
+    <Compile Include="Algoritmos de Ordenamiento\Burbuja.Designer.cs">
+      <DependentUpon>Burbuja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras de Datos\Colas\Cola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras de Datos\Colas\Cola.Designer.cs">
       <DependentUpon>Cola.cs</DependentUpon>
     </Compile>
-    <Compile Include="ColaOperaciones.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Estructuras de Datos\Colas\ColaOperaciones.cs" />
+    <Compile Include="Estructuras de Datos\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Estructuras de Datos\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Grafos1.cs">
+    <Compile Include="Estructuras de Datos\Grafos\Grafos1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Grafos1.Designer.cs">
+    <Compile Include="Estructuras de Datos\Grafos\Grafos1.Designer.cs">
       <DependentUpon>Grafos1.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaCircularSimple.cs">
+    <Compile Include="Estructuras de Datos\Lista Simple Circular\ListaCircularSimple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaCircularSimple.Designer.cs">
+    <Compile Include="Estructuras de Datos\Lista Simple Circular\ListaCircularSimple.Designer.cs">
       <DependentUpon>ListaCircularSimple.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaCircularSimpleOperaciones.cs" />
-    <Compile Include="ListaDobleCircular.cs">
+    <Compile Include="Estructuras de Datos\Lista Simple Circular\ListaCircularSimpleOperaciones.cs" />
+    <Compile Include="Estructuras de Datos\Lista Doble Circular\ListaDobleCircular.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaDobleCircular.Designer.cs">
+    <Compile Include="Estructuras de Datos\Lista Doble Circular\ListaDobleCircular.Designer.cs">
       <DependentUpon>ListaDobleCircular.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaDoblementeEnlazadaCircularOperaciones.cs" />
-    <Compile Include="ListaDoblementeEnlazadaOperaciones.cs" />
-    <Compile Include="ListaDobleSimple.cs">
+    <Compile Include="Estructuras de Datos\Lista Doble Circular\ListaDoblementeEnlazadaCircularOperaciones.cs" />
+    <Compile Include="Estructuras de Datos\Lista Doble\ListaDoblementeEnlazadaOperaciones.cs" />
+    <Compile Include="Estructuras de Datos\Lista Doble\ListaDobleSimple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaDobleSimple.Designer.cs">
+    <Compile Include="Estructuras de Datos\Lista Doble\ListaDobleSimple.Designer.cs">
       <DependentUpon>ListaDobleSimple.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaEnlazadaSimple.cs">
+    <Compile Include="Estructuras de Datos\Lista Simple\ListaEnlazadaSimple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaEnlazadaSimple.Designer.cs">
+    <Compile Include="Estructuras de Datos\Lista Simple\ListaEnlazadaSimple.Designer.cs">
       <DependentUpon>ListaEnlazadaSimple.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaEnlazadaSimpleOperaciones.cs" />
-    <Compile Include="MatrizAdyacencia.cs">
+    <Compile Include="Estructuras de Datos\Lista Simple\ListaEnlazadaSimpleOperaciones.cs" />
+    <Compile Include="Estructuras de Datos\Grafos\MatrizAdyacencia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MatrizAdyacencia.Designer.cs">
+    <Compile Include="Estructuras de Datos\Grafos\MatrizAdyacencia.Designer.cs">
       <DependentUpon>MatrizAdyacencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="MatrizPeso.cs">
+    <Compile Include="Estructuras de Datos\Grafos\MatrizPeso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MatrizPeso.Designer.cs">
+    <Compile Include="Estructuras de Datos\Grafos\MatrizPeso.Designer.cs">
       <DependentUpon>MatrizPeso.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuAlgoritmos.cs">
+    <Compile Include="Algoritmos de Ordenamiento\MenuAlgoritmos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuAlgoritmos.Designer.cs">
+    <Compile Include="Algoritmos de Ordenamiento\MenuAlgoritmos.Designer.cs">
       <DependentUpon>MenuAlgoritmos.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
@@ -129,57 +135,63 @@
     <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="NodoArbol.cs" />
-    <Compile Include="NodoCola.cs" />
-    <Compile Include="NodoGrafos.cs" />
-    <Compile Include="NodoLCS.cs" />
-    <Compile Include="NodoLDE.cs" />
-    <Compile Include="NodoLEDC.cs" />
-    <Compile Include="NodoLES.cs" />
-    <Compile Include="NodoP.cs" />
-    <Compile Include="Pila.cs">
+    <Compile Include="Estructuras de Datos\Árboles\NodoArbol.cs" />
+    <Compile Include="Estructuras de Datos\Colas\NodoCola.cs" />
+    <Compile Include="Estructuras de Datos\Grafos\NodoGrafos.cs" />
+    <Compile Include="Estructuras de Datos\Lista Simple Circular\NodoLCS.cs" />
+    <Compile Include="Estructuras de Datos\Lista Doble\NodoLDE.cs" />
+    <Compile Include="Estructuras de Datos\Lista Doble Circular\NodoLEDC.cs" />
+    <Compile Include="Estructuras de Datos\Lista Simple\NodoLES.cs" />
+    <Compile Include="Estructuras de Datos\Pilas\NodoP.cs" />
+    <Compile Include="Estructuras de Datos\Pilas\Pila.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Pila.Designer.cs">
+    <Compile Include="Estructuras de Datos\Pilas\Pila.Designer.cs">
       <DependentUpon>Pila.cs</DependentUpon>
     </Compile>
-    <Compile Include="PilasOperaciones.cs" />
+    <Compile Include="Estructuras de Datos\Pilas\PilasOperaciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Arbol.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Árboles\Arbol.resx">
       <DependentUpon>Arbol.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cola.resx">
+    <EmbeddedResource Include="Algoritmos de Ordenamiento\Burbuja.resx">
+      <DependentUpon>Burbuja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras de Datos\Colas\Cola.resx">
       <DependentUpon>Cola.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Grafos1.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Grafos\Grafos1.resx">
       <DependentUpon>Grafos1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaCircularSimple.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Lista Simple Circular\ListaCircularSimple.resx">
       <DependentUpon>ListaCircularSimple.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaDobleCircular.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Lista Doble Circular\ListaDobleCircular.resx">
       <DependentUpon>ListaDobleCircular.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaDobleSimple.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Lista Doble\ListaDobleSimple.resx">
       <DependentUpon>ListaDobleSimple.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaEnlazadaSimple.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Lista Simple\ListaEnlazadaSimple.resx">
       <DependentUpon>ListaEnlazadaSimple.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MatrizAdyacencia.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Grafos\MatrizAdyacencia.resx">
       <DependentUpon>MatrizAdyacencia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MatrizPeso.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Grafos\MatrizPeso.resx">
       <DependentUpon>MatrizPeso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Algoritmos de Ordenamiento\MenuAlgoritmos.resx">
+      <DependentUpon>MenuAlgoritmos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pila.resx">
+    <EmbeddedResource Include="Estructuras de Datos\Pilas\Pila.resx">
       <DependentUpon>Pila.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -208,5 +220,6 @@
   <ItemGroup>
     <None Include="Resources\2df57548baa0c244ff9ee0d1ac1364dd.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

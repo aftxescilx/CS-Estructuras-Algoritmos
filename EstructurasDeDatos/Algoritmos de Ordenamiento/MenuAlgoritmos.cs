@@ -12,9 +12,16 @@ namespace EstructurasDeDatos
 {
     public partial class MenuAlgoritmos : Form
     {
+        Burbuja burbuja = new Burbuja();
         public MenuAlgoritmos()
         {
             InitializeComponent();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            burbuja.Show();
+            Hide();
         }
     }
 }

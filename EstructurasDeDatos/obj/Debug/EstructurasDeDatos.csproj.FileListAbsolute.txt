@@ -21,3 +21,5 @@ C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\Estr
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.MenuPrincipal.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.ListaEnlazadaSimple.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Pila.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Burbuja.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.MenuAlgoritmos.resources
