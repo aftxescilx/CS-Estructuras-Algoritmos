@@ -28,26 +28,26 @@ namespace EstructurasDeDatos
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            listaCircular.Show();
-            this.Hide();
+           listaCircular.Show();
+           Hide();
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
             listaDoble.Show();
-            this.Hide();
+            Hide();
         }
 
         private void Button3_Click(object sender, EventArgs e)
         {
             cola.Show();
-            this.Hide();
+            Hide();
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
             dobleCircular.Show();
-            this.Hide();
+            Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)

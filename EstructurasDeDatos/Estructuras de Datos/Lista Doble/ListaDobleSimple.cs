@@ -101,11 +101,6 @@ namespace EstructurasDeDatos
             }
         }
 
-        private void BtnMostrar_Click(object sender, EventArgs e)
-        {
-            lblMostrar.Text = miLista.ToString();
-        }
-
         private void BtnEliminarLista_Click(object sender, EventArgs e)
         {
             miLista.Head = null;

@@ -65,6 +65,7 @@ namespace EstructurasDeDatos
             this.ClientSize = new System.Drawing.Size(266, 194);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.ResumeLayout(false);

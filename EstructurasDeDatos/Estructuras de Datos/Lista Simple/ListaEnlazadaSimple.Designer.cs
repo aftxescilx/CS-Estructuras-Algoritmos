@@ -46,11 +46,11 @@ namespace EstructurasDeDatos
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.BackColor = System.Drawing.Color.White;
             this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(110, 9);
+            this.lblTitulo.Location = new System.Drawing.Point(162, 9);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(366, 30);
+            this.lblTitulo.Size = new System.Drawing.Size(266, 30);
             this.lblTitulo.TabIndex = 35;
-            this.lblTitulo.Text = "Lista Enlazada Simple Circular";
+            this.lblTitulo.Text = "Lista Enlazada Simple";
             // 
             // btnEliminarLista
             // 

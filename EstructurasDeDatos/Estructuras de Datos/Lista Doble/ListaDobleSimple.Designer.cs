@@ -32,8 +32,6 @@
             this.btnEliminarLista = new System.Windows.Forms.Button();
             this.btnCargar = new System.Windows.Forms.Button();
             this.btnGuardarArchivo = new System.Windows.Forms.Button();
-            this.lblMostrar = new System.Windows.Forms.Label();
-            this.btnMostrar = new System.Windows.Forms.Button();
             this.btnContar = new System.Windows.Forms.Button();
             this.txtEliminar = new System.Windows.Forms.TextBox();
             this.btnEliminarNodo = new System.Windows.Forms.Button();
@@ -57,7 +55,7 @@
             // 
             this.btnEliminarLista.BackColor = System.Drawing.Color.Pink;
             this.btnEliminarLista.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarLista.Location = new System.Drawing.Point(163, 294);
+            this.btnEliminarLista.Location = new System.Drawing.Point(163, 255);
             this.btnEliminarLista.Name = "btnEliminarLista";
             this.btnEliminarLista.Size = new System.Drawing.Size(89, 53);
             this.btnEliminarLista.TabIndex = 34;
@@ -69,7 +67,7 @@
             // 
             this.btnCargar.BackColor = System.Drawing.Color.Pink;
             this.btnCargar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargar.Location = new System.Drawing.Point(163, 258);
+            this.btnCargar.Location = new System.Drawing.Point(163, 219);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(89, 30);
             this.btnCargar.TabIndex = 33;
@@ -81,36 +79,13 @@
             // 
             this.btnGuardarArchivo.BackColor = System.Drawing.Color.Pink;
             this.btnGuardarArchivo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarArchivo.Location = new System.Drawing.Point(163, 201);
+            this.btnGuardarArchivo.Location = new System.Drawing.Point(163, 162);
             this.btnGuardarArchivo.Name = "btnGuardarArchivo";
             this.btnGuardarArchivo.Size = new System.Drawing.Size(89, 51);
             this.btnGuardarArchivo.TabIndex = 32;
             this.btnGuardarArchivo.Text = "Guardar Archivo";
             this.btnGuardarArchivo.UseVisualStyleBackColor = false;
             this.btnGuardarArchivo.Click += new System.EventHandler(this.BtnGuardarArchivo_Click);
-            // 
-            // lblMostrar
-            // 
-            this.lblMostrar.AutoSize = true;
-            this.lblMostrar.BackColor = System.Drawing.Color.White;
-            this.lblMostrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMostrar.Location = new System.Drawing.Point(263, 170);
-            this.lblMostrar.Name = "lblMostrar";
-            this.lblMostrar.Size = new System.Drawing.Size(14, 20);
-            this.lblMostrar.TabIndex = 31;
-            this.lblMostrar.Text = "-";
-            // 
-            // btnMostrar
-            // 
-            this.btnMostrar.BackColor = System.Drawing.Color.Pink;
-            this.btnMostrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrar.Location = new System.Drawing.Point(163, 165);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(89, 30);
-            this.btnMostrar.TabIndex = 30;
-            this.btnMostrar.Text = "Mostrar";
-            this.btnMostrar.UseVisualStyleBackColor = false;
-            this.btnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
             // btnContar
             // 
@@ -185,8 +160,6 @@
             this.Controls.Add(this.btnEliminarLista);
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.btnGuardarArchivo);
-            this.Controls.Add(this.lblMostrar);
-            this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.btnContar);
             this.Controls.Add(this.txtEliminar);
             this.Controls.Add(this.btnEliminarNodo);
@@ -206,8 +179,6 @@
         private System.Windows.Forms.Button btnEliminarLista;
         private System.Windows.Forms.Button btnCargar;
         private System.Windows.Forms.Button btnGuardarArchivo;
-        private System.Windows.Forms.Label lblMostrar;
-        private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Button btnContar;
         private System.Windows.Forms.TextBox txtEliminar;
         private System.Windows.Forms.Button btnEliminarNodo;
