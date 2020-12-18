@@ -41,11 +41,11 @@ namespace EstructurasDeDatos
             g = en.Graphics;
             if (enor == true || posor == true || preor == true)
             {
-                miArbol.Colorear(g, this.Font, Brushes.LightBlue, Brushes.White, Pens.White, miArbol.RaizArbol(), enor, preor, posor);
+                miArbol.Colorear(g, this.Font, Brushes.DarkBlue, Brushes.White, Pens.White, miArbol.RaizArbol(), enor, preor, posor);
             }
             else if (iden == true)
             {
-                miArbol.DibujarArbol(g, this.Font, Brushes.LightBlue, Brushes.White, Pens.Black, Brushes.Black, enc, multiplo, massimo, minino);
+                miArbol.DibujarArbol(g, this.Font, Brushes.DarkBlue, Brushes.White, Pens.Black, Brushes.Black, enc, multiplo, massimo, minino);
             }
             else if (alt == true)
             {
@@ -53,7 +53,7 @@ namespace EstructurasDeDatos
             }
             else
             {
-                miArbol.DibujarArbol(g, this.Font, Brushes.LightBlue, Brushes.White, Pens.Black, Brushes.Black, enc, multiplo, 0, 0);
+                miArbol.DibujarArbol(g, this.Font, Brushes.DarkBlue, Brushes.White, Pens.Black, Brushes.Black, enc, multiplo, 0, 0);
             }
             preor = false;
             enor = false;

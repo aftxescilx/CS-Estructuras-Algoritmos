@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EstructurasDeDatos
@@ -122,7 +118,7 @@ namespace EstructurasDeDatos
 
         private void eliminarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            bandera = 6;
+             bandera = 6;
         }
 
         int cordx = new int();
@@ -241,7 +237,6 @@ namespace EstructurasDeDatos
             }
             if (bandera == 6)
             {
-                bool uuu = false;
                 for (int i = 0; i < nodos.Count; i++)
                 {
                     for (int j = 0; j < nodos[i].aristas.Count; j++)
@@ -258,7 +253,6 @@ namespace EstructurasDeDatos
         bool minicio = false;
         int xinicio = 0;
         int yinicio = 0;
-        bool mfinal = false;
         int nodmover = 1000; 
 
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
@@ -321,10 +315,10 @@ namespace EstructurasDeDatos
         List<NodoGrafos> auxmover;
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
-            int xxdif = 0;
-            int yydif = 0;
+            int xxdif;
+            int yydif;
+
             List<NodoGrafos> auxnodo = nodos;
-            NodoGrafos nd = new NodoGrafos();
             if (bandera == 2 && minicio == true) 
             {
                 xxdif = e.Location.X - xinicio;
@@ -360,6 +354,11 @@ namespace EstructurasDeDatos
         private void Grafos1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void borrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

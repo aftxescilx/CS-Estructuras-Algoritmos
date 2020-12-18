@@ -12,7 +12,7 @@ namespace EstructurasDeDatos
 {
     public partial class Matriz_Adyacencia : Form
     {
-        List<NodoGrafos> grafo = new List<NodoGrafos>();//LISTA DE NODOS
+        List<NodoGrafos> grafo = new List<NodoGrafos>();
 
         public Matriz_Adyacencia()
         {
@@ -28,11 +28,11 @@ namespace EstructurasDeDatos
         {
             dataGridView1.ColumnCount = 0;
             dataGridView1.ColumnCount = grafo.Count;
-            dataGridView1.RowCount = 1; //SIEMPRE HAY UNO
+            dataGridView1.RowCount = 1; 
             dataGridView1.RowCount = grafo.Count;
             for (int i = 0; i < grafo.Count; i++)
             {
-                dataGridView1.Columns[i].Name = i.ToString();//PONGO EL NOMBRE DE LA COLUMNA
+                dataGridView1.Columns[i].Name = i.ToString();
 
             }
 
@@ -40,7 +40,7 @@ namespace EstructurasDeDatos
             {
                 for (int j = 0; j < grafo.Count; j++)
                 {
-                    dataGridView1.Rows[i].Cells[j].Value = 0; //INICIALIZAMOS EN CERO
+                    dataGridView1.Rows[i].Cells[j].Value = 0; 
                 }
             }
 
@@ -48,7 +48,7 @@ namespace EstructurasDeDatos
             {
                 for (int j = 0; j < grafo[i].aristas.Count(); j++)
                 {
-                    dataGridView1.Rows[i].Cells[grafo[i].aristas[j].getDestino()].Value = 1; //RECORREMOS EL GRAFO Y AL QUE LE LLEGUE ALGO LE PONE UN 1 DE RELACION
+                    dataGridView1.Rows[i].Cells[grafo[i].aristas[j].getDestino()].Value = 1; 
                 }
             }
 

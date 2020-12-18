@@ -42,5 +42,4 @@ namespace EstructurasDeDatos
             aristas.Add(ar);
         }
     }
-
 }
