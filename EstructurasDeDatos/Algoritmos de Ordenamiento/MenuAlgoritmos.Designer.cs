@@ -113,8 +113,9 @@ namespace EstructurasDeDatos
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 100);
             this.button1.TabIndex = 8;
-            this.button1.Text = "BURBUJA BIDIRECCIONAL (QUICKSORT)";
+            this.button1.Text = "BURBUJA BIDIRECCIONAL (COCKTAILSORT)";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MenuAlgoritmos
             // 
@@ -131,6 +132,7 @@ namespace EstructurasDeDatos
             this.Controls.Add(this.button1);
             this.Name = "MenuAlgoritmos";
             this.Text = "Menu Algoritmos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuAlgoritmos_FormClosed);
             this.ResumeLayout(false);
 
         }

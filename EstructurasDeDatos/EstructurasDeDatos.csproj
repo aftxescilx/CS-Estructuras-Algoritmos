@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algoritmos de Ordenamiento\CocktailSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Algoritmos de Ordenamiento\CocktailSort.Designer.cs">
+      <DependentUpon>CocktailSort.cs</DependentUpon>
+    </Compile>
     <Compile Include="Estructuras de Datos\Árboles\Arbol.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     <Compile Include="Estructuras de Datos\Pilas\PilasOperaciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Algoritmos de Ordenamiento\CocktailSort.resx">
+      <DependentUpon>CocktailSort.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estructuras de Datos\Árboles\Arbol.resx">
       <DependentUpon>Arbol.cs</DependentUpon>
     </EmbeddedResource>

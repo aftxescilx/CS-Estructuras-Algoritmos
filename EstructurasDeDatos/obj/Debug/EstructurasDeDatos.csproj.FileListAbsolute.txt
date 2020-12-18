@@ -23,3 +23,4 @@ C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\Estr
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Pila.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Burbuja.resources
 C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.MenuAlgoritmos.resources
+C:\Users\miria\source\repos\EstructurasDeDatos\EstructurasDeDatos\obj\Debug\EstructurasDeDatos.Algoritmos_de_Ordenamiento.CocktailSort.resources
