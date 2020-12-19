@@ -149,6 +149,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
             this.Name = "fMenu";
             this.Text = "Menú Operaciones";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.fMenu_FormClosed);

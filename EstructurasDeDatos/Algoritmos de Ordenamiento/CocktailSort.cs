@@ -119,5 +119,15 @@ namespace EstructurasDeDatos.Algoritmos_de_Ordenamiento
         {
             Application.Exit();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Array.Clear(vector, 0, vector.Length);
+            lbNum.Items.Clear();
+            lbOrdenar.Items.Clear();
+            lblTiempoOrdenar.Text = "";
+            lblIntercambios.Text = "";
+            lblComparaciones.Text = "";
+        }
     }
 }

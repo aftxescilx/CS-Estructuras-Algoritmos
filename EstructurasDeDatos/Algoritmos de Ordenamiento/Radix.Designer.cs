@@ -47,6 +47,7 @@ namespace EstructurasDeDatos
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblNumeros = new System.Windows.Forms.Label();
             this.txtNum = new System.Windows.Forms.TextBox();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -264,12 +265,26 @@ namespace EstructurasDeDatos
             this.txtNum.Size = new System.Drawing.Size(76, 27);
             this.txtNum.TabIndex = 26;
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Pink;
+            this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(342, 263);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(88, 29);
+            this.btnEliminar.TabIndex = 38;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // Radix
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(548, 378);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtMax);
             this.Controls.Add(this.txtMin);
             this.Controls.Add(this.label2);
@@ -282,6 +297,7 @@ namespace EstructurasDeDatos
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblNumeros);
             this.Controls.Add(this.txtNum);
+            this.MaximizeBox = false;
             this.Name = "Radix";
             this.Text = "Radix";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Radix_FormClosed);
@@ -312,5 +328,6 @@ namespace EstructurasDeDatos
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblNumeros;
         private System.Windows.Forms.TextBox txtNum;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }

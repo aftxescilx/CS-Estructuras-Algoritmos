@@ -128,5 +128,15 @@ namespace EstructurasDeDatos
         {
             Application.Exit();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Array.Clear(arregloInicial, 0, arregloInicial.Length);
+            lblArregloDesordenado.Text = "";
+            lblInvertido.Text = "";
+            lblOriginal.Text = "";
+            lblTiempo.Text = "";
+            lblOrdenado.Text = "";
+        }
     }
 }

@@ -96,13 +96,13 @@ namespace EstructurasDeDatos
             this.nuevoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem});
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             // 
             // grafo1ToolStripMenuItem
             // 
             this.grafo1ToolStripMenuItem.Name = "grafo1ToolStripMenuItem";
-            this.grafo1ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.grafo1ToolStripMenuItem.Size = new System.Drawing.Size(138, 26);
             this.grafo1ToolStripMenuItem.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem.Click += new System.EventHandler(this.grafo1ToolStripMenuItem_Click);
             // 
@@ -111,14 +111,14 @@ namespace EstructurasDeDatos
             this.borrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem1});
             this.borrarToolStripMenuItem.Name = "borrarToolStripMenuItem";
-            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.borrarToolStripMenuItem.Text = "Borrar";
             this.borrarToolStripMenuItem.Click += new System.EventHandler(this.borrarToolStripMenuItem_Click);
             // 
             // grafo1ToolStripMenuItem1
             // 
             this.grafo1ToolStripMenuItem1.Name = "grafo1ToolStripMenuItem1";
-            this.grafo1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.grafo1ToolStripMenuItem1.Size = new System.Drawing.Size(138, 26);
             this.grafo1ToolStripMenuItem1.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem1.Click += new System.EventHandler(this.grafo1ToolStripMenuItem1_Click);
             // 
@@ -248,6 +248,7 @@ namespace EstructurasDeDatos
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Grafos1";
             this.Text = "Grafos1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Grafos1_FormClosed);

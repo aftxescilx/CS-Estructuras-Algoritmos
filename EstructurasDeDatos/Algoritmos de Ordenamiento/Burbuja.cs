@@ -95,6 +95,11 @@ namespace EstructurasDeDatos
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             Array.Clear(lista, 0, lista.Length);
+            lblNum.Text = "";
+            lblOrden.Text = "";
+            lblTiempoOrdenar.Text = "";
+            lblIntercambios.Text = "";
+            lblComparaciones.Text = "";
         }
     }
 }

@@ -166,6 +166,7 @@
             this.Controls.Add(this.lblLista);
             this.Controls.Add(this.txtNodo);
             this.Controls.Add(this.btnGuardar);
+            this.MaximizeBox = false;
             this.Name = "ListaDobleSimple";
             this.Text = "ListaDobleSimple";
             this.ResumeLayout(false);

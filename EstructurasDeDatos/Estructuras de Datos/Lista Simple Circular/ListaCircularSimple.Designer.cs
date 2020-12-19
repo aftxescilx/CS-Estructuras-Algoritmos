@@ -167,6 +167,7 @@
             this.Controls.Add(this.lblLista);
             this.Controls.Add(this.txtNodo);
             this.Controls.Add(this.btnGuardar);
+            this.MaximizeBox = false;
             this.Name = "ListaCircularSimple";
             this.Text = "ListaCircularSimple";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ListaCircularSimple_FormClosed);

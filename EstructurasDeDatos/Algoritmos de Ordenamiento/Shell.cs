@@ -102,5 +102,19 @@ namespace EstructurasDeDatos
             btnGenerar.Enabled = true;
             Mostrar(lbOrdenar);
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Array.Clear(vector, 0, vector.Length);
+            lbNum.Items.Clear();
+            lbOrdenar.Items.Clear();
+            lblTiempoOrdenar.Text = "";
+            lblIntercambios.Text = "";
+        }
+
+        private void Shell_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

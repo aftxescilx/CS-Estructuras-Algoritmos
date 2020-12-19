@@ -60,6 +60,7 @@ namespace EstructurasDeDatos
             this.button7.TabIndex = 14;
             this.button7.Text = "MEZCLA NATURAL";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button5
             // 
@@ -71,6 +72,7 @@ namespace EstructurasDeDatos
             this.button5.TabIndex = 12;
             this.button5.Text = "MEZCLA DIRECTA";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -133,6 +135,7 @@ namespace EstructurasDeDatos
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.MaximizeBox = false;
             this.Name = "MenuAlgoritmos";
             this.Text = "Menu Algoritmos";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuAlgoritmos_FormClosed);

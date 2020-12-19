@@ -61,6 +61,7 @@ namespace EstructurasDeDatos
             this.ClientSize = new System.Drawing.Size(444, 361);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.dataGridView1);
+            this.MaximizeBox = false;
             this.Name = "Matriz_Peso";
             this.Text = "Matriz Peso";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Matriz_Peso_FormClosed);

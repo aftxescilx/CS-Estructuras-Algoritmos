@@ -284,6 +284,7 @@ namespace EstructurasDeDatos
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblNumeros);
             this.Controls.Add(this.txtNum);
+            this.MaximizeBox = false;
             this.Name = "Burbuja";
             this.Text = "Burbuja";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Burbuja_FormClosed);

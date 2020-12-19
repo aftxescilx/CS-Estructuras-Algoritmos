@@ -165,6 +165,7 @@ namespace EstructurasDeDatos
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.MaximizeBox = false;
             this.Name = "Pila";
             this.Text = "Pila";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Pila_FormClosed);
