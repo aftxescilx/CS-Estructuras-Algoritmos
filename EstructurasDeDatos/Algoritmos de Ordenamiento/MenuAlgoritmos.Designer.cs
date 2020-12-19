@@ -92,8 +92,9 @@ namespace EstructurasDeDatos
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(160, 100);
             this.button3.TabIndex = 10;
-            this.button3.Text = "INTERCALACIÓN";
+            this.button3.Text = "RADIX";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -105,6 +106,7 @@ namespace EstructurasDeDatos
             this.button2.TabIndex = 9;
             this.button2.Text = "INSERCIÓN (SHELLSORT)";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 

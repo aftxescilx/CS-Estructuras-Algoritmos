@@ -9,6 +9,8 @@ namespace EstructurasDeDatos
         Burbuja burbuja = new Burbuja();
         CocktailSort cocktail = new CocktailSort();
         Counts counts = new Counts();
+        Shell shell = new Shell();
+        Radix radix = new Radix();
         
         public MenuAlgoritmos()
         {
@@ -36,6 +38,18 @@ namespace EstructurasDeDatos
         private void button4_Click(object sender, EventArgs e)
         {
             counts.Show();
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            shell.Show();
+            Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            radix.Show();
             Hide();
         }
     }

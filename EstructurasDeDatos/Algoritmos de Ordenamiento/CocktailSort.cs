@@ -26,7 +26,6 @@ namespace EstructurasDeDatos.Algoritmos_de_Ordenamiento
             for (i = 0; i < vector.Length; i++)
             {
                 vector[i] = aleatorio.Next(min, max);
-
             }
         }
 
@@ -41,7 +40,6 @@ namespace EstructurasDeDatos.Algoritmos_de_Ordenamiento
             int intercambio = 0;
             do
             {
-                //recorrido a la derecha
                 for (int i = izq; i < der; i++)
                 {
                     comparaciones++;
@@ -56,7 +54,6 @@ namespace EstructurasDeDatos.Algoritmos_de_Ordenamiento
                 }
                 der = ultimo;
 
-                //recorrido a la izq
                 for (int j = der; j > izq; j--)
                 {
                     comparaciones++;
