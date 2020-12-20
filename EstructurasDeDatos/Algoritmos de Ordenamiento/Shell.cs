@@ -17,6 +17,8 @@ namespace EstructurasDeDatos
         int auxiliar = 0;
         int e = 0;
         int pasadas = 0;
+        int intercambios = 0;
+        int comparaciones = 0;
 
         Stopwatch contador = new Stopwatch();
 
@@ -56,12 +58,14 @@ namespace EstructurasDeDatos
                     e = 1;
                     while (e <= (arreglo.Length - salto)) 
                     {
+                        comparaciones++;
                         if (arreglo[e - 1] > arreglo[(e - 1) + salto]) 
                         {
                             auxiliar = arreglo[(e - 1) + salto];
                             arreglo[(e - 1) + salto] = arreglo[e - 1];
                             arreglo[e - 1] = auxiliar;
                             sw = 1;
+                            intercambios++;
                         }
                         e++;
                         pasadas++;
@@ -97,7 +101,9 @@ namespace EstructurasDeDatos
             contador.Restart();
             MetodoShell(vector);
             contador.Stop();
-            lblIntercambios.Text = pasadas + "";
+            lblIteracion.Text = pasadas + "";
+            lblIntercambios.Text = intercambios + "";
+            lblComparaciones.Text = comparaciones + "";
             lblTiempoOrdenar.Text = contador.Elapsed.TotalMilliseconds.ToString() + " Milisegundos";
             btnGenerar.Enabled = true;
             Mostrar(lbOrdenar);
@@ -109,7 +115,7 @@ namespace EstructurasDeDatos
             lbNum.Items.Clear();
             lbOrdenar.Items.Clear();
             lblTiempoOrdenar.Text = "";
-            lblIntercambios.Text = "";
+            lblIteracion.Text = "";
         }
 
         private void Shell_FormClosed(object sender, FormClosedEventArgs e)
