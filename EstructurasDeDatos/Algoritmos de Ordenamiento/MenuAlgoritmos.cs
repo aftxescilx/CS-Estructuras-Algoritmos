@@ -53,13 +53,12 @@ namespace EstructurasDeDatos
             Hide();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
+            MenuPrincipal m = new MenuPrincipal();
+            m.Show();
+            Hide();
 
         }
     }

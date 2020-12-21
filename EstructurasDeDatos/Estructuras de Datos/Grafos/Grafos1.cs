@@ -360,5 +360,13 @@ namespace EstructurasDeDatos
         {
 
         }
+
+        private void volverToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fMenu m = new fMenu();
+            m.Show();
+            Hide();
+
+        }
     }
 }

@@ -39,6 +39,7 @@ namespace EstructurasDeDatos
             this.button5 = new System.Windows.Forms.Button();
             this.lblPila = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -150,12 +151,26 @@ namespace EstructurasDeDatos
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Pink;
+            this.btnVolver.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(20, 267);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(85, 29);
+            this.btnVolver.TabIndex = 41;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // Pila
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(496, 312);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.lblPila);
             this.Controls.Add(this.button5);
@@ -185,5 +200,6 @@ namespace EstructurasDeDatos
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label lblPila;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

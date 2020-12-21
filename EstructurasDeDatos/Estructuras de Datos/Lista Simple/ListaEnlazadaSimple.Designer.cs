@@ -39,6 +39,7 @@ namespace EstructurasDeDatos
             this.lblLista = new System.Windows.Forms.Label();
             this.txtNodo = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -151,12 +152,26 @@ namespace EstructurasDeDatos
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Pink;
+            this.btnVolver.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(29, 267);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(85, 29);
+            this.btnVolver.TabIndex = 42;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // ListaEnlazadaSimple
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(577, 365);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnEliminarLista);
             this.Controls.Add(this.btnCargar);
@@ -188,5 +203,6 @@ namespace EstructurasDeDatos
         private System.Windows.Forms.Label lblLista;
         private System.Windows.Forms.TextBox txtNodo;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

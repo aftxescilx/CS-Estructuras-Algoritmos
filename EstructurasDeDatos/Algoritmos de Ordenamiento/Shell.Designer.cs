@@ -34,6 +34,10 @@ namespace EstructurasDeDatos
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblComparaciones = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblIntercambios = new System.Windows.Forms.Label();
             this.lblO = new System.Windows.Forms.Label();
             this.lblI = new System.Windows.Forms.Label();
             this.lblTiempoOrdenar = new System.Windows.Forms.Label();
@@ -46,10 +50,7 @@ namespace EstructurasDeDatos
             this.lblNumeros = new System.Windows.Forms.Label();
             this.txtNum = new System.Windows.Forms.TextBox();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblIntercambios = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblComparaciones = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,6 +116,54 @@ namespace EstructurasDeDatos
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tiempo de ejecucion";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(23, 60);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(97, 15);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Comparaciones:";
+            // 
+            // lblComparaciones
+            // 
+            this.lblComparaciones.AutoSize = true;
+            this.lblComparaciones.BackColor = System.Drawing.Color.White;
+            this.lblComparaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComparaciones.Location = new System.Drawing.Point(121, 60);
+            this.lblComparaciones.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblComparaciones.Name = "lblComparaciones";
+            this.lblComparaciones.Size = new System.Drawing.Size(14, 15);
+            this.lblComparaciones.TabIndex = 14;
+            this.lblComparaciones.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(23, 45);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 15);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Intercambios:";
+            // 
+            // lblIntercambios
+            // 
+            this.lblIntercambios.AutoSize = true;
+            this.lblIntercambios.BackColor = System.Drawing.Color.White;
+            this.lblIntercambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIntercambios.Location = new System.Drawing.Point(121, 45);
+            this.lblIntercambios.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblIntercambios.Name = "lblIntercambios";
+            this.lblIntercambios.Size = new System.Drawing.Size(14, 15);
+            this.lblIntercambios.TabIndex = 12;
+            this.lblIntercambios.Text = "0";
             // 
             // lblO
             // 
@@ -259,53 +308,18 @@ namespace EstructurasDeDatos
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
-            // label3
+            // btnVolver
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 45);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 15);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Intercambios:";
-            // 
-            // lblIntercambios
-            // 
-            this.lblIntercambios.AutoSize = true;
-            this.lblIntercambios.BackColor = System.Drawing.Color.White;
-            this.lblIntercambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIntercambios.Location = new System.Drawing.Point(121, 45);
-            this.lblIntercambios.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblIntercambios.Name = "lblIntercambios";
-            this.lblIntercambios.Size = new System.Drawing.Size(14, 15);
-            this.lblIntercambios.TabIndex = 12;
-            this.lblIntercambios.Text = "0";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(23, 60);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 15);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "Comparaciones:";
-            // 
-            // lblComparaciones
-            // 
-            this.lblComparaciones.AutoSize = true;
-            this.lblComparaciones.BackColor = System.Drawing.Color.White;
-            this.lblComparaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComparaciones.Location = new System.Drawing.Point(121, 60);
-            this.lblComparaciones.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblComparaciones.Name = "lblComparaciones";
-            this.lblComparaciones.Size = new System.Drawing.Size(14, 15);
-            this.lblComparaciones.TabIndex = 14;
-            this.lblComparaciones.Text = "0";
+            this.btnVolver.BackColor = System.Drawing.Color.Pink;
+            this.btnVolver.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(345, 291);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(88, 29);
+            this.btnVolver.TabIndex = 39;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // Shell
             // 
@@ -313,6 +327,7 @@ namespace EstructurasDeDatos
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(578, 365);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtMax);
             this.Controls.Add(this.txtMin);
@@ -360,5 +375,6 @@ namespace EstructurasDeDatos
         private System.Windows.Forms.Label lblComparaciones;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblIntercambios;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

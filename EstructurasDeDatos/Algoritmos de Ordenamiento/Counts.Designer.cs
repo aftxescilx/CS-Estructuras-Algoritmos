@@ -49,6 +49,7 @@ namespace EstructurasDeDatos
             this.lblArregloDesordenado = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTiempo
@@ -232,7 +233,7 @@ namespace EstructurasDeDatos
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Pink;
             this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(367, 80);
+            this.btnEliminar.Location = new System.Drawing.Point(319, 78);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(94, 40);
@@ -254,6 +255,19 @@ namespace EstructurasDeDatos
             this.label2.TabIndex = 38;
             this.label2.Text = "Count";
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Pink;
+            this.btnVolver.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(419, 80);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(94, 40);
+            this.btnVolver.TabIndex = 41;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // Counts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,6 +275,7 @@ namespace EstructurasDeDatos
             this.AutoScroll = true;
             this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(552, 250);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnCrear);
@@ -311,5 +326,6 @@ namespace EstructurasDeDatos
         private System.Windows.Forms.Label lblArregloDesordenado;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

@@ -68,6 +68,7 @@ namespace EstructurasDeDatos
             this.MaximizeBox = false;
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuPrincipal_FormClosed);
             this.ResumeLayout(false);
 
         }

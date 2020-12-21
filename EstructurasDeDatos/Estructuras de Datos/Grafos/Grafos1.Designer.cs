@@ -51,6 +51,7 @@ namespace EstructurasDeDatos
             this.grafo1ToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.pesoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grafo1ToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.volverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -86,7 +87,8 @@ namespace EstructurasDeDatos
             // 
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nuevoToolStripMenuItem,
-            this.borrarToolStripMenuItem});
+            this.borrarToolStripMenuItem,
+            this.volverToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(83, 25);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -96,7 +98,7 @@ namespace EstructurasDeDatos
             this.nuevoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem});
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             // 
             // grafo1ToolStripMenuItem
@@ -111,7 +113,7 @@ namespace EstructurasDeDatos
             this.borrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.grafo1ToolStripMenuItem1});
             this.borrarToolStripMenuItem.Name = "borrarToolStripMenuItem";
-            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
+            this.borrarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.borrarToolStripMenuItem.Text = "Borrar";
             this.borrarToolStripMenuItem.Click += new System.EventHandler(this.borrarToolStripMenuItem_Click);
             // 
@@ -239,6 +241,13 @@ namespace EstructurasDeDatos
             this.grafo1ToolStripMenuItem4.Text = "Grafo 1";
             this.grafo1ToolStripMenuItem4.Click += new System.EventHandler(this.grafo1ToolStripMenuItem4_Click);
             // 
+            // volverToolStripMenuItem
+            // 
+            this.volverToolStripMenuItem.Name = "volverToolStripMenuItem";
+            this.volverToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.volverToolStripMenuItem.Text = "Volver";
+            this.volverToolStripMenuItem.Click += new System.EventHandler(this.volverToolStripMenuItem_Click);
+            // 
             // Grafos1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -284,5 +293,6 @@ namespace EstructurasDeDatos
         private System.Windows.Forms.ToolStripMenuItem grafo1ToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem pesoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem grafo1ToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem volverToolStripMenuItem;
     }
 }

@@ -37,6 +37,7 @@
             this.lblCola = new System.Windows.Forms.Label();
             this.txtNodo = new System.Windows.Forms.TextBox();
             this.btnEncolar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -142,12 +143,26 @@
             this.btnEncolar.UseVisualStyleBackColor = false;
             this.btnEncolar.Click += new System.EventHandler(this.BtnEncolar_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Pink;
+            this.btnVolver.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Location = new System.Drawing.Point(17, 270);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(85, 29);
+            this.btnVolver.TabIndex = 43;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // Cola
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EstructurasDeDatos.Properties.Resources._2df57548baa0c244ff9ee0d1ac1364dd;
             this.ClientSize = new System.Drawing.Size(563, 328);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnEliminarLista);
             this.Controls.Add(this.btnCargar);
@@ -176,5 +191,6 @@
         private System.Windows.Forms.Label lblCola;
         private System.Windows.Forms.TextBox txtNodo;
         private System.Windows.Forms.Button btnEncolar;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

@@ -106,5 +106,12 @@ namespace EstructurasDeDatos
             miLista.Head = null;
             lblLista.Text = miLista.ToString();
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            fMenu m = new fMenu();
+            m.Show();
+            Hide();
+        }
     }
 }

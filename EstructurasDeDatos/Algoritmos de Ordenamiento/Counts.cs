@@ -138,5 +138,12 @@ namespace EstructurasDeDatos
             lblTiempo.Text = "";
             lblOrdenado.Text = "";
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            fMenu m = new fMenu();
+            m.Show();
+            Hide();
+        }
     }
 }

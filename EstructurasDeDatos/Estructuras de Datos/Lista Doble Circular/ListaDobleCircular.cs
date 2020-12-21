@@ -112,5 +112,12 @@ namespace EstructurasDeDatos
         {
             Application.Exit();
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            fMenu m = new fMenu();
+            m.Show();
+            Hide();
+        }
     }
 }

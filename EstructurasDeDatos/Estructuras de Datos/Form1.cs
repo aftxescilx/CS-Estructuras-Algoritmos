@@ -78,5 +78,12 @@ namespace EstructurasDeDatos
         {
             Application.Exit();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal m = new MenuPrincipal();
+            m.Show();
+            Hide();
+        }
     }
 }
