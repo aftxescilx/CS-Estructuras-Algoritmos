@@ -61,6 +61,7 @@
     <Compile Include="Algoritmos de Ordenamiento\Counts.Designer.cs">
       <DependentUpon>Counts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Estructuras de Datos\Pilas\NodoP.cs" />
     <Compile Include="Estructuras de Datos\Árboles\Arbol.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,13 +149,8 @@
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Estructuras de Datos\Árboles\NodoArbol.cs" />
-    <Compile Include="Estructuras de Datos\Colas\NodoCola.cs" />
     <Compile Include="Estructuras de Datos\Grafos\NodoGrafos.cs" />
-    <Compile Include="Estructuras de Datos\Lista Simple Circular\NodoLCS.cs" />
-    <Compile Include="Estructuras de Datos\Lista Doble\NodoLDE.cs" />
-    <Compile Include="Estructuras de Datos\Lista Doble Circular\NodoLEDC.cs" />
-    <Compile Include="Estructuras de Datos\Lista Simple\NodoLES.cs" />
-    <Compile Include="Estructuras de Datos\Pilas\NodoP.cs" />
+    <Compile Include="Nodo.cs" />
     <Compile Include="Estructuras de Datos\Pilas\Pila.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -4,8 +4,8 @@ namespace EstructurasDeDatos
 {
     class ListaDoblementeEnlazadaOperaciones
     {
-        private NodoLDE head;
-        public NodoLDE Head
+        private Nodo head;
+        public Nodo Head
         {
             get { return head; }
             set { head = value; }
@@ -16,12 +16,12 @@ namespace EstructurasDeDatos
             head = null;
         }
 
-        public ListaDoblementeEnlazadaOperaciones(NodoLDE n)
+        public ListaDoblementeEnlazadaOperaciones(Nodo n)
         {
             head = n;
         }
 
-        public void Insertar(NodoLDE n)
+        public void Insertar(Nodo n)
         {
 
             if (head == null)
@@ -40,7 +40,7 @@ namespace EstructurasDeDatos
                 return;
             }
 
-            NodoLDE h = head;
+            Nodo h = head;
 
             while (h.Siguiente != null)
             {
@@ -73,7 +73,7 @@ namespace EstructurasDeDatos
                     head.Anterior = null;
                     return;
                 }
-                NodoLDE h = head;
+                Nodo h = head;
 
                 while (h.Siguiente != null)
                 {
@@ -95,7 +95,7 @@ namespace EstructurasDeDatos
         public override string ToString()
         {
             string lista = "";
-            NodoLDE h = head;
+            Nodo h = head;
             if (h != null)
             {
                 lista += h.ToString();
@@ -117,7 +117,7 @@ namespace EstructurasDeDatos
 
         public bool BuscarDato(int a)
         {
-            NodoLDE h = head;
+            Nodo h = head;
             if (h != null)
             {
                 while (h != null)
@@ -135,7 +135,7 @@ namespace EstructurasDeDatos
         public int ContarNodos()
         {
             int contador = 0;
-            NodoLDE h = head;
+            Nodo h = head;
             while (h != null)
             {
                 contador++;

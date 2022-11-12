@@ -9,9 +9,9 @@ namespace EstructurasDeDatos
 {
     class ListaEnlazadaSimpleOperaciones
     {
-        private NodoLES head;
+        private Nodo head;
 
-        public NodoLES Head
+        public Nodo Head
         {
             get { return head; }
             set { head = value; }
@@ -21,7 +21,7 @@ namespace EstructurasDeDatos
         {
             head = null;
         }
-        public ListaEnlazadaSimpleOperaciones(NodoLES n)
+        public ListaEnlazadaSimpleOperaciones(Nodo n)
         {
             head = n;
         }
@@ -34,7 +34,7 @@ namespace EstructurasDeDatos
                     head = head.Siguiente;
                     return;
                 }
-                NodoLES h = head;
+                Nodo h = head;
                 while (h.Siguiente != null)
                 {
                     if (h.Siguiente.Dato == dato)
@@ -46,7 +46,7 @@ namespace EstructurasDeDatos
                 }
             }
         }
-        public void Agregar(NodoLES n)
+        public void Agregar(Nodo n)
         {
 
             if (head == null)
@@ -60,7 +60,7 @@ namespace EstructurasDeDatos
                 head = n;
                 return;
             }
-            NodoLES h = head;
+            Nodo h = head;
             while (h.Siguiente != null)
             {
                 if (h.Siguiente.Dato > n.Dato)
@@ -83,7 +83,7 @@ namespace EstructurasDeDatos
         public override string ToString()
         {
             string lista = "";
-            NodoLES h = head;
+            Nodo h = head;
             if (h != null)
             {
                 lista += h.ToString();
@@ -102,7 +102,7 @@ namespace EstructurasDeDatos
         }
         public bool BuscarDato(int a)
         {
-            NodoLES h = head;
+            Nodo h = head;
             if (h != null)
             {
                 while (h != null)
@@ -119,7 +119,7 @@ namespace EstructurasDeDatos
         public int ContarNodos()
         {
             int contador = 0;
-            NodoLES h = head;
+            Nodo h = head;
             while (h != null)
             {
                 contador++;

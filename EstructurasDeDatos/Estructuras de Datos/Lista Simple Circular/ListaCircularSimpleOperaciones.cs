@@ -8,8 +8,8 @@ namespace EstructurasDeDatos
 {
     class ListaCircularSimpleOperaciones
     {
-        private NodoLCS head;
-        public NodoLCS Head
+        private Nodo head;
+        public Nodo Head
         {
             get { return head; }
             set { head = value; }
@@ -19,13 +19,13 @@ namespace EstructurasDeDatos
         {
             head = null;
         }
-        public ListaCircularSimpleOperaciones(NodoLCS n)
+        public ListaCircularSimpleOperaciones(Nodo n)
         {
             head = n;
         }
-        public bool Agregar(NodoLCS n)
+        public bool Agregar(Nodo n)
         {
-            NodoLCS h = head;
+            Nodo h = head;
 
             //lista vacía
             if (head == null)
@@ -63,7 +63,7 @@ namespace EstructurasDeDatos
         }
         public void Borrar(int dato)
         {
-            NodoLCS h = head;
+            Nodo h = head;
             if (head != null)
             {
                 if (head.Dato == dato)
@@ -89,7 +89,7 @@ namespace EstructurasDeDatos
         }
         public bool BuscarDato(int a)
         {
-            NodoLCS h = head;
+            Nodo h = head;
             if (h != null)
 
             {
@@ -107,7 +107,7 @@ namespace EstructurasDeDatos
         public int ContarNodos()
         {
             int contador = 0;
-            NodoLCS h = head;
+            Nodo h = head;
             do
             {
                 contador++;
@@ -118,7 +118,7 @@ namespace EstructurasDeDatos
         public override string ToString()
         {
             string lista = "";
-            NodoLCS h = head;
+            Nodo h = head;
             if (h != null)
             {
                 do

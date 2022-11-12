@@ -8,8 +8,8 @@ namespace EstructurasDeDatos
 {
     class ListaDoblementeEnlazadaCircularOperaciones
     {
-        private NodoLEDC head;
-        public NodoLEDC Head
+        private Nodo head;
+        public Nodo Head
         {
             get { return head; }
             set { head = value; }
@@ -18,19 +18,19 @@ namespace EstructurasDeDatos
         {
             head = null;
         }
-        public ListaDoblementeEnlazadaCircularOperaciones(NodoLEDC n)
+        public ListaDoblementeEnlazadaCircularOperaciones(Nodo n)
         {
             head = n;
-            n.Atras = head;
+            n.Anterior = head;
             n.Siguiente = head;
         }
-        public bool Agregar(NodoLEDC n)
+        public bool Agregar(Nodo n)
         {
-            NodoLEDC h = head;
+            Nodo h = head;
             if (head == null) 
             {
 
-                n.Atras = n;
+                n.Anterior = n;
                 n.Siguiente = n;
                 head = n;
                 return true;
@@ -42,10 +42,10 @@ namespace EstructurasDeDatos
 
             if (n.Dato < head.Dato)
             {
-                head.Atras.Siguiente = n;
-                n.Atras = head.Atras;
+                head.Anterior.Siguiente = n;
+                n.Anterior = head.Anterior;
                 n.Siguiente = head;
-                head.Atras = n;
+                head.Anterior = n;
                 head = n;
                 return true;
 
@@ -60,23 +60,23 @@ namespace EstructurasDeDatos
             } while (h != head);
             if (n.Dato < h.Siguiente.Dato)
             {
-                h.Siguiente.Atras = n;
-                n.Atras = h;
+                h.Siguiente.Anterior = n;
+                n.Anterior = h;
                 n.Siguiente = h.Siguiente;
                 h.Siguiente = n;
             }
             else
             {
                 n.Siguiente = h;
-                n.Atras = h.Atras;
-                h.Atras.Siguiente = n;
-                h.Atras = n;
+                n.Anterior = h.Anterior;
+                h.Anterior.Siguiente = n;
+                h.Anterior = n;
             }
             return true;
         }
         public bool Buscar(int b) 
         {
-            NodoLEDC h = head;
+            Nodo h = head;
             if (h != null)
             {
                 do
@@ -95,7 +95,7 @@ namespace EstructurasDeDatos
             int cuenta = 0; 
             if (head != null) 
             {
-                NodoLEDC h = head;
+                Nodo h = head;
                 do 
                 {
                     cuenta++;
@@ -107,7 +107,7 @@ namespace EstructurasDeDatos
 
         public string MostrarDatos()
         {
-            NodoLEDC h = head;
+            Nodo h = head;
             string s = "";
             do
             {
@@ -118,12 +118,12 @@ namespace EstructurasDeDatos
         }
         public string MostrarDatosAnt()
         {
-            NodoLEDC h = head;
+            Nodo h = head;
             string s = "";
             do
             {
-                s += h.Atras.Dato;
-                h = h.Atras;
+                s += h.Anterior.Dato;
+                h = h.Anterior;
             } while (h != head);
             return s;
 
@@ -136,7 +136,7 @@ namespace EstructurasDeDatos
         {
             if (Buscar(b))
             {
-                NodoLEDC h = head;
+                Nodo h = head;
 
                 while (h.Siguiente != head) 
                 {
@@ -147,14 +147,11 @@ namespace EstructurasDeDatos
 
                     h = h.Siguiente;
                 }
-                h.Atras.Siguiente = h.Siguiente;
-                h.Siguiente.Atras = h.Atras;
+                h.Anterior.Siguiente = h.Siguiente;
+                h.Siguiente.Anterior = h.Anterior;
                 if (h == head)
                 {
-
                     head = head.Siguiente;
-
-
                 }
 
                 return true;
@@ -165,7 +162,7 @@ namespace EstructurasDeDatos
         public override string ToString()
         {
             string lista = "";
-            NodoLEDC h = head;
+            Nodo h = head;
             if (h != null)
             {
                 do

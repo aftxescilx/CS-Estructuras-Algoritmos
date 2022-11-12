@@ -7,7 +7,7 @@ namespace EstructurasDeDatos
     public partial class ListaCircularSimple : Form
     {
         ListaCircularSimpleOperaciones MiLista = new ListaCircularSimpleOperaciones();
-        NodoLCS n;
+        Nodo n;
         public ListaCircularSimple()
         {
             InitializeComponent();
@@ -19,7 +19,7 @@ namespace EstructurasDeDatos
             {
                 if (!MiLista.BuscarDato(int.Parse(txtNodo.Text)))
                 {
-                    n = new NodoLCS();
+                    n = new Nodo();
                     n.Dato = int.Parse(txtNodo.Text);
                     MiLista.Agregar(n);
                     lblLista.Text = MiLista.ToString();
@@ -70,7 +70,7 @@ namespace EstructurasDeDatos
                 string[] Lista = linea.Split(',');
                 foreach (string i in Lista)
                 {
-                    n = new NodoLCS();
+                    n = new Nodo();
                     n.Dato = int.Parse(Lista[contador]);
                     MiLista.Agregar(n);
                     lblLista.Text = MiLista.ToString();

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace EstructurasDeDatos
 {
-    class NodoLDE
+    class Nodo
     {
         private int dato;
-        private NodoLDE siguiente;
-        private NodoLDE anterior;
+        private Nodo siguiente;
+        private Nodo anterior;
 
         public int Dato
         {
@@ -18,30 +18,37 @@ namespace EstructurasDeDatos
             set { dato = value; }
         }
 
-        public NodoLDE Siguiente
+        public Nodo Siguiente
         {
             get { return siguiente; }
             set { siguiente = value; }
         }
 
-        public NodoLDE Anterior
+        public Nodo Anterior
         {
             get { return anterior; }
             set { anterior = value; }
         }
 
-        public NodoLDE(int dato, NodoLDE siguiente, NodoLDE anterior)
+        public int V { get; }
+
+        public Nodo(int dato, Nodo siguiente, Nodo anterior)
         {
             this.dato = dato;
             this.siguiente = siguiente;
             this.anterior = anterior;
         }
 
-        public NodoLDE()
+        public Nodo()
         {
             dato = 0;
             siguiente = null;
             anterior = null;
+        }
+
+        public Nodo(int v)
+        {
+            V = v;
         }
 
         public override string ToString()

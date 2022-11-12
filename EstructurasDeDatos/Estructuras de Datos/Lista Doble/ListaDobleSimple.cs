@@ -7,7 +7,7 @@ namespace EstructurasDeDatos
     public partial class ListaDobleSimple : Form
     {
         ListaDoblementeEnlazadaOperaciones miLista = new ListaDoblementeEnlazadaOperaciones();
-        NodoLDE n;
+        Nodo n;
         public ListaDobleSimple()
         {
             InitializeComponent();
@@ -19,7 +19,7 @@ namespace EstructurasDeDatos
             {
                 if (!miLista.BuscarDato(int.Parse(txtNodo.Text)))
                 {
-                    n = new NodoLDE();
+                    n = new Nodo();
                     n.Dato = int.Parse(txtNodo.Text);
                     miLista.Insertar(n);
                     lblLista.Text = miLista.ToString();
@@ -92,7 +92,7 @@ namespace EstructurasDeDatos
                 string[] Lista = linea.Split(',');
                 foreach (string i in Lista)
                 {
-                    n = new NodoLDE();
+                    n = new Nodo();
                     n.Dato = int.Parse(Lista[contador]);
                     miLista.Insertar(n);
                     lblLista.Text = miLista.ToString();

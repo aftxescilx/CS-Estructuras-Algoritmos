@@ -7,7 +7,7 @@ namespace EstructurasDeDatos
     public partial class Cola : Form
     {
         ColaOperaciones MiCola = new ColaOperaciones();
-        NodoCola n;
+        Nodo n;
         public Cola()
         {
             InitializeComponent();
@@ -17,7 +17,7 @@ namespace EstructurasDeDatos
         {
             try
             {
-                n = new NodoCola();
+                n = new Nodo();
                 n.Dato = int.Parse(txtNodo.Text);
                 MiCola.Encolar(n);
                 lblCola.Text = MiCola.ToString();
@@ -71,7 +71,7 @@ namespace EstructurasDeDatos
                     string[] Lista = linea.Split(',');
                     foreach (string i in Lista)
                     {
-                        n = new NodoCola();
+                        n = new Nodo();
                         n.Dato = int.Parse(Lista[contador]);
                         MiCola.Encolar(n);
                         contador++;

@@ -6,7 +6,7 @@ namespace EstructurasDeDatos
 {
     public partial class ListaEnlazadaSimple : Form
     {
-        NodoLES n;
+        Nodo n;
         ListaEnlazadaSimpleOperaciones MiLista = new ListaEnlazadaSimpleOperaciones();
         public ListaEnlazadaSimple()
         {
@@ -19,7 +19,7 @@ namespace EstructurasDeDatos
             {
                 if (!MiLista.BuscarDato(int.Parse(txtNodo.Text)))
                 {
-                    n = new NodoLES();
+                    n = new Nodo();
                     n.Dato = int.Parse(txtNodo.Text);
                     MiLista.Agregar(n);
                     lblLista.Text = MiLista.ToString();
@@ -82,7 +82,7 @@ namespace EstructurasDeDatos
                 string[] Lista = linea.Split(',');
                 foreach (string i in Lista)
                 {
-                    n = new NodoLES();
+                    n = new Nodo();
                     n.Dato = int.Parse(Lista[contador]);
                     MiLista.Agregar(n);
                     lblLista.Text = MiLista.ToString();

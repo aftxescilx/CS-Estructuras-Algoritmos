@@ -8,15 +8,15 @@ namespace EstructurasDeDatos
 {
     class ColaOperaciones
     {
-        private NodoCola head;
-        public NodoCola Head
+        private Nodo head;
+        public Nodo Head
         {
             get { return head; }
             set { head = value; }
         }
-        private NodoCola tail;
+        private Nodo tail;
 
-        public NodoCola Tail
+        public Nodo Tail
         {
             get { return head; }
             set { head = value; }
@@ -26,7 +26,7 @@ namespace EstructurasDeDatos
             head = null;
             tail = null;
         }
-        public void Encolar(NodoCola n)
+        public void Encolar(Nodo n)
         {
             if (head == null)
             {
@@ -56,7 +56,7 @@ namespace EstructurasDeDatos
         public override string ToString()
         {
             string stringCola = "";
-            NodoCola h = head;
+            Nodo h = head;
             if (h != null)
             {
                 stringCola += h.ToString();

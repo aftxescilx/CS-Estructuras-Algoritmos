@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EstructurasDeDatos
+namespace EstructurasDeDatos.Estructuras_de_Datos.Pilas
 {
     class NodoP
     {
@@ -64,6 +64,5 @@ namespace EstructurasDeDatos
         {
             return dato + "";
         }
-
     }
 }
